@@ -102,9 +102,18 @@ To install all dependencies, run:
 ```bash
 pip install -r requirements.txt
 ```
-
 ## License
-```bash
-You can now copy this formatted README as you need. Let me know if you'd like further assistance!
-```
+
+This project is licensed under the following terms:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, subject to the following conditions:
+
+1. **Citation Requirement**: Any use of the Software in research or publications must cite the following GitHub repository:
+   
+   - [GitHub Repository Link](https://github.com/yourusername/ImageInsight)
+
+2. **Attribution**: The above copyright notice, this permission notice, and the citation requirement must be included in all copies or substantial portions of the Software.
+
+See the full [LICENSE](LICENSE) file for more details.
+
 
