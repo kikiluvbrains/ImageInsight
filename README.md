@@ -1,4 +1,4 @@
-# My Pipeline
+# ImageInsight
 
 A Python pipeline for extracting visual activations from images, processing them, and generating semantic descriptions using a neural network model. The pipeline utilizes PyTorch, a pre-trained AlexNet model, and a custom activation-to-description model.
 
