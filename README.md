@@ -36,7 +36,8 @@ A Python pipeline for extracting visual activations from images, processing them
 
 ##Please download the semantic model to later call "ImageInsight"
 
-[Download Model from Google Drive]([https://drive.google.com/drive/folders/1hAxBlQcZjZmJhsT8A5nW5jIF9DiDZiuH?usp=drive_link](https://drive.google.com/drive/u/1/folders/1hAxBlQcZjZmJhsT8A5nW5jIF9DiDZiuH))
+[Download Model from Google Drive](https://drive.google.com/drive/folders/1hAxBlQcZjZmJhsT8A5nW5jIF9DiDZiuH?usp=drive_link)
+
 
 
 ## Usage
