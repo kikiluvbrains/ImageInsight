@@ -1,0 +1,12 @@
+README.md
+setup.py
+ImageInsight/__init__.py
+ImageInsight/main.py
+ImageInsight/models.py
+ImageInsight/utils.py
+ImageInsight.egg-info/PKG-INFO
+ImageInsight.egg-info/SOURCES.txt
+ImageInsight.egg-info/dependency_links.txt
+ImageInsight.egg-info/entry_points.txt
+ImageInsight.egg-info/requires.txt
+ImageInsight.egg-info/top_level.txt
