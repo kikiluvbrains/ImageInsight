@@ -1,13 +1,15 @@
 # ImageInsight
 
-A Python pipeline for extracting visual activations from images, processing them, and generating semantic descriptions using a neural network model. The pipeline utilizes PyTorch, a pre-trained AlexNet model, and a custom activation-to-description model.
+A Python pipeline for extracting visual activations from images, processing them, and generating semantic descriptions using a neural network model. The pipeline utilizes PyTorch, a pre-trained AlexNet model, and a customa recurrent neural network (RNN) decoder comprised of  bidirectional GRU's (Gated Recurrent Unit). The RNN takes the activations from the penultimate layer of Alexnet which is passesed through fully connected layers (FC layers) and then is decoded into semnatic descriptors of the image (e.g., is red, is green, is round etc). Lastly the penultimate layer from the RNN can be extracted for further evaluation.
+
+For more information, please refer to --> (link to paper)
 
 ## Features
 
 - **Activation Extraction**: Extract visual activations from images using a pre-trained AlexNet model.
-- **Semantic Descriptions**: Generate descriptions from the extracted activations using a custom neural network.
+- **Semantic Descriptions**: Generate descriptions from the extracted activations using a RNN.
 - **Device Support**: Optionally run on GPU or CPU.
-- **Configurable Model**: Easily switch between different model layers for activation extraction.
+- **Configurable Model**: Easily switch between different model layers for activation extraction from Alexnet.
 
 ## Table of Contents
 
@@ -22,12 +24,12 @@ A Python pipeline for extracting visual activations from images, processing them
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/my_pipeline.git
+   git clone https://github.com/yourusername/ImageInsight.git
 
 2. Navigate into the project directory:
 
    ```bash
-   cd my_pipeline
+   cd ImageInsight
 
 3. Install the required dependencies:
 
