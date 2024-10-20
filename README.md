@@ -24,7 +24,7 @@ For more information, please refer to --> (link to paper)
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/ImageInsight.git
+   git clone https://github.com/kikiluvbrains/ImageInsight.git
 
 2. Navigate into the project directory:
 
