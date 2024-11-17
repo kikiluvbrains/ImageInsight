@@ -2,7 +2,7 @@
 
 A Python pipeline for extracting visual activations from images, processing them, and generating semantic descriptions using a neural network model. The pipeline utilizes PyTorch, a pre-trained AlexNet model, and a customa recurrent neural network (RNN) decoder comprised of  bidirectional GRU's (Gated Recurrent Unit). The RNN takes the activations from the penultimate layer of Alexnet which is passesed through fully connected layers (FC layers) and then is decoded into semnatic descriptors of the image (e.g., is red, is green, is round etc). Lastly the penultimate layer from the RNN can be extracted for further evaluation.
 
-For more information, please refer to --> (link to paper)
+For more information, please refer to --> (link to paper - currently in progress)
 
 ## Features
 
