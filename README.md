@@ -23,20 +23,27 @@ For more information, please refer to --> (link to paper - currently in progress
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository or Install via pip:
 
    ```bash
    git clone https://github.com/kikiluvbrains/ImageInsight.git
+   ```
+   ## or 
+   
+   ```bash
+   pip install imageinsight
+   ```
 
-2. Navigate into the project directory:
+3. Navigate into the project directory:
 
    ```bash
    cd ImageInsight
 
-3. Install the required dependencies:
+4. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 ## Download InsightFace Model
 
