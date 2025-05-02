@@ -17,7 +17,7 @@ For more information, please refer to --> (link to paper - currently in progress
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Image-Folder-Structure](#Image-Folder-Structure)
+3. [Image-Folder-Structure](#Expected-Image-Folder-Structure)
 4. [Directory Structure](#directory-structure)
 5. [Dependencies](#dependencies)
 6. [License](#license)
