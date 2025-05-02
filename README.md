@@ -23,24 +23,26 @@ For more information, please refer to --> (link to paper - currently in progress
 6. [License](#license)
 
 ## Installation
-
-1. Clone this repository or Install via pip:
-
-   ```bash
-   git clone https://github.com/kikiluvbrains/ImageInsight.git
-   ```
-   ## or 
    
    ```bash
    pip install imageinsight
    ```
+   ## or 
 
-3. Navigate into the project directory:
+### 1. Clone this repository or Install via pip:
+
+### 2. Navigate into the project directory:
+
+   ```bash
+   git clone https://github.com/kikiluvbrains/ImageInsight.git
+   ```
+
+### 2. Navigate into the project directory:
 
    ```bash
    cd ImageInsight
-
-4. Install the required dependencies:
+   ```
+### 3. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
