@@ -17,9 +17,10 @@ For more information, please refer to --> (link to paper - currently in progress
 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Directory Structure](#directory-structure)
-4. [Dependencies](#dependencies)
-5. [License](#license)
+3. [Image-Folder-Structure](#Image-Folder-Structure)
+4. [Directory Structure](#directory-structure)
+5. [Dependencies](#dependencies)
+6. [License](#license)
 
 ## Installation
 
@@ -73,7 +74,7 @@ After installing the required dependencies, you can run the pipeline using your 
    model_path = "path/to/your/model.pt"  # Path to the pre-trained model
 
    # Run the pipeline
-   semantic_activations = insight.run_pipeline(
+   visual_activations, semantic_activations, image_descriptions = insight.run_pipeline(
       image_folder=image_folder,
       model_name=model_name,
       layer_index=layer_index,
@@ -85,6 +86,16 @@ After installing the required dependencies, you can run the pipeline using your 
    print(semantic_activations)
 ```
 
+## Expected Image Folder Structure
+
+   ```bash
+   Objects/
+   ├── Apple/
+   │   ├── Apple_1.jpg             
+   │   ├── Apple_two.jpg                   
+   │   ├── apple_3.jpg                
+   ├── Cats/                    
+   ```
 
 ## Directory Structure
 
