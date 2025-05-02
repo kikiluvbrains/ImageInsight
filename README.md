@@ -41,7 +41,8 @@ Please download the semantic model to later call "ImageInsight"
 After installing the required dependencies, you can run the pipeline using your own set of images and a pre-trained model. Here's an example of how to use the pipeline:
 
 ```python
-   from ImageInsight import ImageInsight  # Correct import of the ImageInsight class
+   from ImageInsight import ImageInsight  
+   import numpy as np
 
    # Initialize the ImageInsight model with the path to the pre-trained model and GPU usage option
    insight = ImageInsight(model_path="path/to/your/model.pt", use_gpu=True)
@@ -64,8 +65,6 @@ After installing the required dependencies, you can run the pipeline using your 
       csv_file_name=csv_file_name
    )
 
-   # Print the generated semantic activations and descriptions
-   print(semantic_activations)
 ```
 
 ## Expected Image Folder Structure
@@ -107,12 +106,6 @@ After installing the required dependencies, you can run the pipeline using your 
    matplotlib
    ```
 
-
-To install all dependencies, run:
-
-```bash
-pip install -r requirements.txt
-```
 ## License
 
 This project is licensed under the following terms:
